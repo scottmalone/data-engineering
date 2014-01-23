@@ -1,0 +1,4 @@
+<%  flash.each do |name, msg| %>
+<%    next if name == 'timedout' %>
+<%= content_tag :div, raw(msg), :id => "flash_#{name}", :style => "margin-bottom:10px;color:#{flash_color[name]}" %>
+<% end %>

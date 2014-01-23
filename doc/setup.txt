@@ -1,0 +1,4 @@
+This is a normal rails app.
+
+To start the rails server type 'rails s', without the quotes at the command prompt.
+It will start on localhost:3000 in your browser.

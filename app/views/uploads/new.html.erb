@@ -1,0 +1,10 @@
+<h1>Upload your file</h1>
+<%= form_for @upload do |f| %>
+  <p>
+    <%= f.file_field :file_data %>
+  </p>
+  <p>
+    <%= f.submit "Upload File" %>
+  </p>
+<% end %>
+

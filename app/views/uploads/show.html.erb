@@ -1,0 +1,10 @@
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    monitorComplete(); 
+  });
+</script>
+
+<h1>Upload for <%= @upload.file_name %></h1>
+<p>
+  Status: <span id="upload_status"><%= @upload.complete ? "Complete" : "Pending" %></span>
+</p>
